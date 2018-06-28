@@ -2,3 +2,5 @@ node_modules
 src/config*.js
 !src/config.example.js
 .*.swp
+build/
+yarn-error.log
