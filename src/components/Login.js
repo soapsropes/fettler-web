@@ -36,12 +36,22 @@ class Login extends Component {
 				<h2>Login</h2>
 				<label htmlFor="username">
 					Username:
-					<input id="username" type="text" value={this.state.username} onChange={this.updateUsername} />
+					<input
+						id="username"
+						type="text"
+						value={this.state.username}
+						onChange={this.updateUsername}
+					/>
 				</label>
 				<br />
 				<label htmlFor="password">
 					Password:
-					<input id="password" type="password" value={this.state.password} onChange={this.updatePassword} />
+					<input
+						id="password"
+						type="password"
+						value={this.state.password}
+						onChange={this.updatePassword}
+					/>
 				</label>
 				<br />
 				{this.props.loggingIn ? (
