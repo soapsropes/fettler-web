@@ -1047,8 +1047,8 @@ batch@0.6.1:
   resolved "https://registry.yarnpkg.com/batch/-/batch-0.6.1.tgz#dc34314f4e679318093fc760272525f94bf25c16"
 
 bcrypt-pbkdf@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.1.tgz#63bc5dcb61331b92bc05fd528953c33462a06f8d"
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz#a4301d389b6a43f9b67ff3ca11a3f6637e360e9e"
   dependencies:
     tweetnacl "^0.14.3"
 
@@ -1328,12 +1328,12 @@ caniuse-api@^1.5.2:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30000859"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000859.tgz#6e813a1757f19a93cb3675f6b5037aca80bea062"
+  version "1.0.30000861"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000861.tgz#6f27840a130c10c0b1e00fab7729c1faf8f4ccd3"
 
 caniuse-lite@^1.0.30000748, caniuse-lite@^1.0.30000792:
-  version "1.0.30000859"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000859.tgz#da974adc5348fffe94724877a7ef8cb5d6d3d777"
+  version "1.0.30000861"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000861.tgz#a32bb9607c34e4639b497ff37de746fc8a160410"
 
 capture-stack-trace@^1.0.0:
   version "1.0.0"
@@ -1551,9 +1551,13 @@ combined-stream@1.0.6, combined-stream@~1.0.5:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@2.15.x, commander@^2.11.0, commander@~2.15.0:
+commander@2.15.x, commander@~2.15.0:
   version "2.15.1"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.15.1.tgz#df46e867d0fc2aec66a34662b406a9ccafff5b0f"
+
+commander@^2.11.0:
+  version "2.16.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.16.0.tgz#f16390593996ceb4f3eeb020b31d78528f7f8a50"
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -1838,8 +1842,8 @@ csso@~2.3.1:
     source-map "^0.5.3"
 
 cssom@0.3.x, "cssom@>= 0.3.2 < 0.4.0":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/cssom/-/cssom-0.3.2.tgz#b8036170c79f07a90ff2f16e22284027a243848b"
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/cssom/-/cssom-0.3.3.tgz#7b344769915759c2c9e3eb8c26f7fd533dbea252"
 
 "cssstyle@>= 0.2.37 < 0.3.0":
   version "0.2.37"
@@ -2791,14 +2795,14 @@ fbjs@^0.8.16:
     setimmediate "^1.0.5"
     ua-parser-js "^0.7.18"
 
-fetlife@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/fetlife/-/fetlife-1.1.0.tgz#7554e9c65631ee837481be6ba68c24f4c83253cb"
+fetlife@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/fetlife/-/fetlife-1.2.0.tgz#1f85c804d97c98844122aef0b1adafb637619d78"
   dependencies:
     "@babel/polyfill" "^7.0.0-beta.51"
     axios "^0.18.0"
     lodash "^4.17.10"
-    simple-oauth2 "^1.6.0"
+    simple-oauth2-browser "^1.6.0"
 
 figures@^2.0.0:
   version "2.0.0"
@@ -3262,10 +3266,6 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoek@4.x.x:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/hoek/-/hoek-4.2.1.tgz#9634502aa12c445dd5a7c5734b572bb8738aacbb"
-
 hoist-non-react-statics@^2.5.0:
   version "2.5.5"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
@@ -3701,12 +3701,6 @@ is-obj@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/is-obj/-/is-obj-1.0.1.tgz#3e4729ac1f5fde025cd7d83a896dab9f4f67db0f"
 
-is-odd@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/is-odd/-/is-odd-2.0.0.tgz#7646624671fd7ea558ccd9a2795182f2958f1b24"
-  dependencies:
-    is-number "^4.0.0"
-
 is-path-cwd@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-path-cwd/-/is-path-cwd-1.0.0.tgz#d225ec23132e89edd38fda767472e62e65f1106d"
@@ -3804,12 +3798,6 @@ isarray@0.0.1:
 isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
-
-isemail@3.x.x:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/isemail/-/isemail-3.1.2.tgz#937cf919002077999a73ea8b1951d590e84e01dd"
-  dependencies:
-    punycode "2.x.x"
 
 isexe@^2.0.0:
   version "2.0.0"
@@ -4121,13 +4109,9 @@ jest@20.0.4:
   dependencies:
     jest-cli "^20.0.4"
 
-joi@^12.0.0:
-  version "12.0.0"
-  resolved "https://registry.yarnpkg.com/joi/-/joi-12.0.0.tgz#46f55e68f4d9628f01bbb695902c8b307ad8d33a"
-  dependencies:
-    hoek "4.x.x"
-    isemail "3.x.x"
-    topo "2.x.x"
+joi-browser@^13.4.0:
+  version "13.4.0"
+  resolved "https://registry.yarnpkg.com/joi-browser/-/joi-browser-13.4.0.tgz#b72ba61b610e3f58e51b563a14e0f5225cfb6896"
 
 js-base64@^2.1.9:
   version "2.4.5"
@@ -4692,15 +4676,14 @@ nan@^2.9.2:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.10.0.tgz#96d0cd610ebd58d4b4de9cc0c6828cda99c7548f"
 
 nanomatch@^1.2.9:
-  version "1.2.9"
-  resolved "https://registry.yarnpkg.com/nanomatch/-/nanomatch-1.2.9.tgz#879f7150cb2dab7a471259066c104eee6e0fa7c2"
+  version "1.2.13"
+  resolved "https://registry.yarnpkg.com/nanomatch/-/nanomatch-1.2.13.tgz#b87a8aa4fc0de8fe6be88895b38983ff265bd119"
   dependencies:
     arr-diff "^4.0.0"
     array-unique "^0.3.2"
     define-property "^2.0.2"
     extend-shallow "^3.0.2"
     fragment-cache "^0.2.1"
-    is-odd "^2.0.0"
     is-windows "^1.0.2"
     kind-of "^6.0.2"
     object.pick "^1.3.0"
@@ -5605,13 +5588,13 @@ punycode@1.3.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.3.2.tgz#9653a036fb7c1ee42342f2325cceefea3926c48d"
 
-punycode@2.x.x, punycode@^2.1.0:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
-
 punycode@^1.2.4, punycode@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
+
+punycode@^2.1.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
 
 q@^1.1.2:
   version "1.5.1"
@@ -6339,14 +6322,15 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
-simple-oauth2@^1.6.0:
+simple-oauth2-browser@^1.6.0:
   version "1.6.0"
-  resolved "https://registry.yarnpkg.com/simple-oauth2/-/simple-oauth2-1.6.0.tgz#aeee82f3bfd5478b2db25d4ea2500dcd8a384150"
+  resolved "https://registry.yarnpkg.com/simple-oauth2-browser/-/simple-oauth2-browser-1.6.0.tgz#ceaeaf42fcbfd75e4cd33830afbb8fa3cca39eeb"
   dependencies:
+    "@babel/polyfill" "^7.0.0-beta.51"
     bluebird "^3.5.0"
     date-fns "^1.3.0"
     debug "^3.1.0"
-    joi "^12.0.0"
+    joi-browser "^13.4.0"
     request "^2.81.0"
 
 slash@^1.0.0:
@@ -6824,12 +6808,6 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
 
-topo@2.x.x:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/topo/-/topo-2.0.2.tgz#cd5615752539057c0dc0491a621c3bc6fbe1d182"
-  dependencies:
-    hoek "4.x.x"
-
 toposort@^1.0.0:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/toposort/-/toposort-1.0.7.tgz#2e68442d9f64ec720b8cc89e6443ac6caa950029"
@@ -7072,8 +7050,8 @@ uuid@^2.0.2:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-2.0.3.tgz#67e2e863797215530dff318e5bf9dcebfd47b21a"
 
 uuid@^3.1.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.0.tgz#b237147804881d7b86f40a7ff8f590f15c37de32"
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
 
 validate-npm-package-license@^3.0.1:
   version "3.0.3"
