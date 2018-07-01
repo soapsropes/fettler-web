@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { auth } from '../store/modules/auth/actions';
@@ -33,7 +34,7 @@ class Login extends Component {
 	render() {
 		return (
 			<div>
-				<h2>Login</h2>
+				<h2>FetLife Login</h2>
 				<label htmlFor="username">
 					Username:
 					<input
@@ -64,9 +65,13 @@ class Login extends Component {
 				) : (
 					<button onClick={this.handleSubmit}>Log In</button>
 				)}
+				<br />
 				{this.props.error && (
 					<p className="error">Failed to log in: {this.props.error}</p>
 				)}
+				<div className="footer">
+					<NavLink to="/about">[How does it work?]</NavLink>
+				</div>
 			</div>
 		);
 	}

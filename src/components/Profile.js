@@ -1,11 +1,12 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import _ from 'lodash';
 import { connect } from 'react-redux';
 import { update } from '../store/modules/profile/actions';
 
 const flags = {
-	enabled: 'Enabled',
+	enabled: 'Enable Fettler',
 	autoAccept: 'Auto-accept friend requests',
 };
 
@@ -73,6 +74,9 @@ const Profile = (props) => {
 			{error && (
 				<p>Failed to load/update profile: {error}</p>
 			)}
+			<div className="footer">
+				<NavLink to="/about">[How does it work?]</NavLink>
+			</div>
 		</div>
 	);
 };
