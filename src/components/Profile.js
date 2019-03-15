@@ -8,6 +8,8 @@ import { update } from '../store/modules/profile/actions';
 const flags = {
 	enabled: 'Enable Fettler',
 	autoAccept: 'Auto-accept friend requests',
+	autoMarkReadUnsolicited: 'Auto-mark unsolicited messages as read',
+	autoMarkReadUnsolicitedFromMaleOnly: '...from "Male" profiles only',
 };
 
 const Profile = (props) => {
