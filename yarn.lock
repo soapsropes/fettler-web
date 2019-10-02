@@ -697,10 +697,10 @@
     "@babel/helper-regex" "^7.0.0"
     regexpu-core "^4.1.3"
 
-"@babel/polyfill@^7.0.0-beta.51":
-  version "7.4.0"
-  resolved "https://registry.yarnpkg.com/@babel/polyfill/-/polyfill-7.4.0.tgz#90f9d68ae34ac42ab4b4aa03151848f536960218"
-  integrity sha512-bVsjsrtsDflIHp5I6caaAa2V25Kzn50HKPL6g3X0P0ni1ks+58cPB8Mz6AOKVuRPgaVdq/OwEUc/1vKqX+Mo4A==
+"@babel/polyfill@^7.6.0":
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/@babel/polyfill/-/polyfill-7.6.0.tgz#6d89203f8b6cd323e8d946e47774ea35dc0619cc"
+  integrity sha512-q5BZJI0n/B10VaQQvln1IlDK3BTBJFbADx7tv+oXDPIDZuTo37H5Adb9jhlXm/fEN4Y7/64qD9mnrJJG7rmaTw==
   dependencies:
     core-js "^2.6.5"
     regenerator-runtime "^0.13.2"
@@ -3890,16 +3890,16 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "^2.0.0"
 
-fetlife@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/fetlife/-/fetlife-1.4.0.tgz#c4daa40526b035dee309f907d609a2fd72ed60f7"
-  integrity sha512-9dZlqKoCPpatxghVNUOraGuI3CCn3cHu04c4qsw205reBEYQcpFM47L3YMUfxaFsGuTrPTO/JXTARZlO3Tbt/w==
+fetlife@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/fetlife/-/fetlife-1.5.0.tgz#bea74bdcdf91822b985f32a33a76f7f254214fad"
+  integrity sha512-ymE4b0B86L3+J5mrnuRW62ezENv4zJFNCU5jcAOeUels9XmlNGp1+DPUD7EPcgGjmBWTekJhwnqZEBmvxPI8eA==
   dependencies:
-    "@babel/polyfill" "^7.0.0-beta.51"
+    "@babel/polyfill" "^7.6.0"
     axios "^0.18.0"
     bottleneck "^1.16.0"
-    lodash "^4.17.11"
-    simple-oauth2-browser "^1.7.0"
+    lodash "^4.17.15"
+    simple-oauth2-browser "^1.7.1"
 
 figgy-pudding@^3.5.1:
   version "3.5.1"
@@ -6054,6 +6054,11 @@ lodash.uniq@^4.5.0:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
   integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+
+lodash@^4.17.15:
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 loglevel@^1.4.1:
   version "1.6.1"
@@ -8859,17 +8864,17 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
-simple-oauth2-browser@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/simple-oauth2-browser/-/simple-oauth2-browser-1.7.0.tgz#39baae48721690855fe768c7541cf641484a60a5"
-  integrity sha512-Vv+u228H3IoSXH7TgoLEYPoSQ7yIN8njxjma1OiyFQbqfGQwwdHIK4UhqOsNq6ofP9bXqz43MEhv9AWi2UhK/Q==
+simple-oauth2-browser@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/simple-oauth2-browser/-/simple-oauth2-browser-1.7.1.tgz#d195dae0534354db1d937b8abd7dba42874cdebd"
+  integrity sha512-qQxLKGVT3PTTvlzwTjWwhacaF5jGWNelu/esANWLtfOK3qx2/n5eutyT4cjkmCaPuFIyW8BgpCgIS0mHPFLD0w==
   dependencies:
-    "@babel/polyfill" "^7.0.0-beta.51"
+    "@babel/polyfill" "^7.6.0"
     bluebird "^3.5.0"
     date-fns "^1.3.0"
     debug "^3.1.0"
     joi-browser "^13.4.0"
-    lodash "^4.17.11"
+    lodash "^4.17.15"
     request "^2.88.0"
 
 simple-swizzle@^0.2.2:
